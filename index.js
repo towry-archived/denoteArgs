@@ -1,8 +1,11 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var path = require('path');
 var Parser = require('./Parser');
 
 if (process.argv.length < 3) {
+  console.log("[ERROR] => missing the input file");
   process.exit(-1);
 }
 
