@@ -33,8 +33,8 @@ foo('str', ['jQuery', 'React', 'underscore'], function (a, b, c, d, e, f) {
 ## Usage
 
 ```bash
-git clone https://github.com/towry/denoteArgs /tmp
-cd /tmp && npm link .
+git clone https://github.com/towry/denoteArgs /tmp/denoteArgs
+cd /tmp/denoteArgs && npm link .
 ```
 
 After that, run `denoteArgs`
