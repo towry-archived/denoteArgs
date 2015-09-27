@@ -1,0 +1,22 @@
+{
+  "name": "denoteArgs",
+  "version": "1.0.0",
+  "description": "Denote specific malformed arguments for peculiar use case.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["tool"],
+  "author": "Towry Wang",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^2.6.0"
+  },
+  "engines": {
+    "node": ">= 4.1.1"
+  },
+  "files": [
+    "index.js", "Parser.js"
+  ]
+}
