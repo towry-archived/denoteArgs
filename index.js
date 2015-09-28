@@ -37,8 +37,8 @@ function write(results) {
 
         if (lineno == result.loc.line) {
           var b = content(result.content);
+          result = results.shift();
           if (!b.length) {
-            result = results.shift();
             continue;
           } 
           output.write(b);
